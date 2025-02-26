@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> </title>
+  </head>
+  <body>
+    <h1>Version</h1>
+    <div id="version"></div>
+    <script>
+      const version = document.getElementById("version");
+      version.textContent = navigator.userAgent;
+    </script>
+    <script>
+      console.log(`version: ${navigator.userAgent}`);
+    </script>
+  </body>
+</html>
